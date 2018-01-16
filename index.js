@@ -23,6 +23,9 @@ function checkPosition(katzDeliLine, name) {
 var katzDeliLine = ['Ada'];
 console.log(takeANumber(katzDeliLine, "Ada"))
 
-function nowServing () {
-  
+function nowServing (katzDeliLine) {
+  var name = shift(katzDeliLine)
+  if () {
+    
+  }
 }
