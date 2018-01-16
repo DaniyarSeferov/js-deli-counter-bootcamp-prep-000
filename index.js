@@ -3,6 +3,7 @@ function takeANumber(katzDeliLine, name) {
   
   if (position === 0) {
     katzDeliLine.push(name)
+    position = checkPosition(katzDeliLine, name)
   }
   //console.log(position)
   return `Welcome, ${name}. You are number ${position} in line.`
