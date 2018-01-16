@@ -45,7 +45,7 @@ function currentLine(katzDeliLine) {
     position = i + 1
     newString = newString + position + '. ' + katzDeliLine[i]
     if (position !== length) {
-      
+      newString += ', '
     }
   }
   
