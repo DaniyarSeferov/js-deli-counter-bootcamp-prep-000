@@ -24,7 +24,7 @@ var katzDeliLine = ['Ada'];
 console.log(takeANumber(katzDeliLine, "Ada"))
 
 function nowServing (katzDeliLine) {
-  var name = shift(katzDeliLine)
+  var name = katzDeliLine.shift()
   var serving = ''
   
   if (name !== undefined) {
