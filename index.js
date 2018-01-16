@@ -39,9 +39,14 @@ function nowServing (katzDeliLine) {
 function currentLine(katzDeliLine) {
   var newString = '';
   var position = 0;
-  for (let i=0; i < katzDeliLine.length; i++) {
+  var length = katzDeliLine.length
+  
+  for (let i=0; i < length; i++) {
     position = i + 1
     newString = newString + position + '. ' + katzDeliLine[i]
+    if () {
+      
+    }
   }
   
   
