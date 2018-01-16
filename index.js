@@ -37,7 +37,8 @@ function nowServing (katzDeliLine) {
 }
 
 function currentLine(katzDeliLine) {
-  if (katzDeliLine.length) {
+  var newString = '';
+  for (let i=0; i < katzDeliLine.length; i++) {
     
   }
   
