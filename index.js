@@ -36,4 +36,10 @@ function nowServing (katzDeliLine) {
   return serving
 }
 
-function 
+function currentLine(katzDeliLine) {
+  if (katzDeliLine.length) {
+    
+  }
+  
+  
+}
