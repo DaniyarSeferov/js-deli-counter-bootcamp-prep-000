@@ -48,6 +48,8 @@ function currentLine(katzDeliLine) {
       newString += ', '
     }
   }
-  
+  if () {
+    
+  }
   
 }
