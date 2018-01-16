@@ -37,7 +37,7 @@ function nowServing (katzDeliLine) {
 }
 
 function currentLine(katzDeliLine) {
-  var newString = '';
+  var newString = 'The line is currently: ';
   var position = 0;
   var length = katzDeliLine.length
   
