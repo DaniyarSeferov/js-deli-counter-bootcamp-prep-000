@@ -1,4 +1,5 @@
 function takeANumber(katzDeliLine, name) {
+  position = checkPosition(katzDeliLine, name)
   
   if (position === 0) {
     katzDeliLine.push(name)
