@@ -44,7 +44,7 @@ function currentLine(katzDeliLine) {
   for (let i=0; i < length; i++) {
     position = i + 1
     newString = newString + position + '. ' + katzDeliLine[i]
-    if () {
+    if (position !== length) {
       
     }
   }
