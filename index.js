@@ -48,7 +48,7 @@ function currentLine(katzDeliLine) {
       newString += ', '
     }
   }
-  if (!katzDeliLine.length) {
+  if (!length) {
     newString = 'The line is currently empty.'
   }
   return newString
