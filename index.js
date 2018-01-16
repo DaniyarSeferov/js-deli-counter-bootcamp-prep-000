@@ -1,5 +1,5 @@
 function takeANumber(katzDeliLine, name) {
-  var position = 0;
+  var position = 1;
   for (let i = 0; i < katzDeliLine.length; i++) {
     if (katzDeliLine[i] == name) {
       position = i + 1
