@@ -28,6 +28,9 @@ function nowServing (katzDeliLine) {
   var serving = ''
   
   if (name !== undefined) {
-    serving = ``
+    serving = `Currently serving ${name}.`
+  }
+  else {
+    serving = ''
   }
 }
