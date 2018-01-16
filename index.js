@@ -41,7 +41,7 @@ function currentLine(katzDeliLine) {
   var position = 0;
   for (let i=0; i < katzDeliLine.length; i++) {
     position = i + 1
-    newString = newString + position + . + katzDeliLine[i]
+    newString = newString + position + '. ' + katzDeliLine[i]
   }
   
   
