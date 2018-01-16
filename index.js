@@ -31,6 +31,7 @@ function nowServing (katzDeliLine) {
     serving = `Currently serving ${name}.`
   }
   else {
-    serving = ''
+    serving = 'There is nobody waiting to be served!'
   }
+  return serving
 }
